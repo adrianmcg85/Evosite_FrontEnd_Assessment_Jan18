@@ -1,0 +1,244 @@
+
+
+.container, #boderTop{
+	
+}
+.container{
+	
+}
+
+section{
+	position: relative;
+	margin: 20px 0;
+}
+
+section:not(#mainImgSection){
+	padding: 20px 100px;
+}
+
+
+/* View All Buttons*/
+.viewAll{
+	width: 90px;
+	height: 27px;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 2px;
+	display: inline-block;
+	margin-top: 20px;
+	
+}
+
+.viewAll a:link, .viewAll a:visited, .viewAll a:hover{
+	height: 36px;
+	width: 114px;
+	padding-top: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+/*Main Section*/
+main{
+	position: relative;
+	top: -40px;
+}
+
+#ancmtDiv{
+	background-color: rgba(236, 65, 143, 0.7);
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index:10;
+	overflow: hidden;
+}
+#ancmtSpan{
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 12px;
+	color:  #ffffff;
+	font-size: 0.875em;
+	font-weight: 400;
+	text-align: left;
+	
+	
+}
+
+
+#mainImage{
+	position: relative;
+	width: 100%;
+	top: 0;
+	z-index: 5
+}
+
+#mainImgSection, #mainimage{
+	height: 682px;
+}
+
+#believe{
+	position: absolute;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg, #121414 0%, rgba(19, 20, 20, 0) 98%);
+	background: -moz-linear-gradient(90deg, #121414 0%, rgba(19, 20, 20, 0) 98%);
+	background: -o-linear-gradient(90deg, #121414 0%, rgba(19, 20, 20, 0) 98%);
+	background: -ms-linear-gradient(90deg, #121414 0%, rgba(19, 20, 20, 0) 98%);
+	background: linear-gradient(0deg, #121414 0%, rgba(19, 20, 20, 0) 98%);
+	width: 100%;
+	height: 175px;
+	z-index: 10;
+	bottom: 0;
+	color: #ffffff;
+	padding-top: 65px;
+}
+#believe h2{
+	font-size: 2.5em;
+	font-weight: 350;
+}
+
+
+
+/*Main Text*/
+#maintext h1{
+	color:  #ed4290;
+}
+
+#maintext{
+	
+}
+
+#maintext .viewAll{
+	background-color: #ec418f;
+}
+#studentLinks a:link, #studentLinks a:visited, #studentLinks a:hover, #studentLinks:active{
+	color:  #ffffff;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	line-height: 1.25;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 70px;
+}
+
+#studentLinks{
+	
+}
+#studentLinks div{
+	width: 265px;
+	height: 80px;
+	background-size: 265px 80px;
+	background-repeat: no-repeat;
+	
+}
+
+#studentLinks div:not(.overlay){
+	margin: 10px;
+}
+
+/*images for the links to students next to welcome*/
+#applyStudent{
+	background-image: url("../images/apply.png");
+}
+
+#checkStudent{
+	background-image: url("../images/checkout.png");
+}
+#resaurceStudent{
+	
+	background-image: url("../images/resource.png");
+}
+/* Overlay to student resources link*/
+.overlay{
+	margin-left: 0;
+	background-color:  rgba(155, 204, 106, 0.6);
+}
+
+
+/* News Section*/
+#news h1{
+	color: #ffffff;
+}
+
+#news{
+	height: 500px;
+	background: orange;
+
+}
+#news .item{
+	color:  #4e5050;
+	font-size: 0.75em;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 1.438;
+	padding: 15px;
+	border-radius: 10px;
+	background: #ffffff;
+	height: 280px;
+}
+
+#news .viewAll{
+	background-color:  #642d8c;
+	margin-left: 46%;
+}
+
+
+/* Calender*/
+
+#Calender h1{
+	color: #642d8c
+}
+
+#calImp, #Calender .viewAll{
+	background: #642d8c
+}
+#Calender .item{
+	height: auto;
+	width: 130px;
+	
+}
+
+#calImp{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+/*Twitter*/
+
+#tweet{
+	background-color: #ec418f;
+	display: block;
+	
+	
+}
+.twitter-timeline{
+	margin-top: 50px !important;
+	margin-left:115px;
+}
+
+
+#tweet>.viewAll{
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-left: 150px;
+	margin-bottom: 30px;
+	
+}
+
+/*Owl carousel Settings */
+
+.owl-prev    
+{
+    margin: -3px 0 0 -65px!important;
+    position: absolute!important;
+}
+.owl-next{
+    position: absolute!important;
+    margin: -3px 0 0 35px!important;
+}
+

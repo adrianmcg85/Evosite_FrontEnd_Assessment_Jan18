@@ -1,0 +1,206 @@
+html, body, h1, h2, h3, h4, h5, header, main, footer, section{
+	font-family: Myriad Pro, Helvetica, Arial, Sans serif;
+	
+}
+
+header{
+
+}
+
+h1{
+font-size: 4em;
+font-weight: 400;
+letter-spacing: -0.02em;
+text-align: left;
+}
+/*Header */
+#topBorder{
+background: -webkit-linear-gradient(90deg, #ec418f 0%, rgba(19, 20, 20, 0) 98%);
+background: -moz-linear-gradient(90deg, #ec418f 0%, rgba(19, 20, 20, 0) 98%);
+background: -o-linear-gradient(90deg, #ec418f 0%, rgba(19, 20, 20, 0) 98%);
+background: -ms-linear-gradient(90deg, #ec418f 0%, rgba(19, 20, 20, 0) 98%);
+background: linear-gradient(0deg, #ec418f 0%, rgba(19, 20, 20, 0) 98%);
+height: 5px;
+}
+
+/* Logo */
+.navbar{
+	padding-top: 0;
+
+
+}
+.navbar-brand{
+	background-image: url("../images/Circle.png");
+	width: 203px;
+	height: 164px;
+	text-align: center;
+	white-space: normal;
+	z-index: 0;
+}
+
+#logoTxt, #logoSub{
+	color: #ffffff;
+	display: inline-block;
+}
+#logoTxt{	
+font-size: 3em;
+font-weight: 400;
+line-height: 1.2;
+margin-top: 5px;
+}
+
+#logoSub{
+margin-top: 0;
+font-size: 0.813em;
+font-weight: 400;
+line-height: 0.8;
+text-align: center;
+width: 125px;
+height: 65px;
+margin: 10px 20px;
+}
+
+/*Navigation */
+
+.navbar-nav{
+margin-left: 80px;
+}
+
+.navbar-nav a{
+font-size: 0.938em !important;
+font-weight: 400 !important;
+text-align: right !important;
+}
+
+.navbar-nav a:link{	
+color:  #898a8a !important;
+}
+
+.navbar-nav a:visited{
+	color:  #4e5050 !important;
+}
+
+.navbar-nav a:hover, .navbar-nav>.active{
+color:  #ed4290 !important;
+
+}
+
+
+/*Drop Down Menu*/
+
+.dropdown-menu{
+	position: relative;
+	top: 150px;
+	left: 375px;
+	columns: 2;
+	background-color:  rgba(236, 65, 143, 0.9);
+	padding: 24px 50px 30px 24px;
+}
+
+.dropdown-menu a:link, .dropdown-menu a:visited, .dropdown-menu a:hover, .dropdown-menu a:active{
+color:  #ffffff !important;
+text-decoration: none;
+font-size: 0.938em;
+font-weight: 400;
+text-align: left;
+}
+.dropdown-menu li:hover{
+	background-color:  #e42891;
+}
+
+/*Other Links e.g. Sociial Media */
+#otherLinks{
+margin-left: 20px;
+}
+#otherLinks div{
+		display: inline-block;
+
+text-align: center;
+		width: 25px;
+height: 25px;
+border-radius: 50%;
+	background: #ec418f;
+}
+
+.oLinks, #searchLink{
+	margin: 3px;
+}
+
+
+/* Footer */
+footer{
+height: 559px;
+background: #4d4e4e;
+padding: 0 150px;
+font-weight: 400;
+}
+
+footer, footer a:link ,footer a:visited, footer a:hover, footer a:active{
+	color: #ffffff;
+}
+.btt{
+	text-align: center;
+}
+
+footer h6{
+font-size: 2em;
+letter-spacing: -0.02em;
+text-align: left;
+margin-bottom: 40px;
+}
+
+.contact #address{
+	font-size: 1em;
+line-height: 1.5;
+text-align: left;
+width: 132px;
+height: 128px;
+}
+
+#footerTwitter img{
+	width: 30px;
+	
+}
+#footerTwitter span{
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.quickLink{
+	height: 9px !important;
+	width: 12px !important;
+}
+footer a:link ,footer a:visited, footer a:hover, footer a:active{
+text-decoration: none !important;
+	font-size: 1em;
+text-align: left;
+
+}
+
+#map{
+	width: 200px;
+	height: 150px;
+}
+
+#maps>.viewAll{
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 150px;
+}
+
+#quickLink{
+	padding-left: 5px !important;
+	list-style-type: none;
+	font-size: 1em;
+letter-spacing: 0.03em;
+line-height: 2.125;
+text-align: left;
+}
+#quickLink img{
+	height: 15px;
+	width: 25px;
+}
+
+#quickLink img{
+	margin-bottom: 3px;
+}
+
