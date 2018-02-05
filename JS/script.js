@@ -59,26 +59,7 @@ $(document).ready(function(){
 	//Carousel JQuery
 	
 	
-	$('.owl-carousel').owlCarousel({
-		margin: 10,
-		nav: true,
-		loop: true,
-		autoplay:true,
-		autoplayTimeout:1000,
-		autoplayHoverPause:true,
-		autoplayTimeout:3000,
-		responsive:{
-			0:{
-				items:1
-			},
-			600:{
-				items:2
-			},
-			1000:{
-				items:3
-			}
-		}
-	})
+
 	
 	// Google Maps
 	
@@ -111,7 +92,7 @@ $(document).ready(function(){
 	}
 	
 	//Arrays
-	var days= [23,11,04,03];
+	var days= [03,04,11,23];
 	
 	//Content Arrays
 	var day1 = [[/*Event Time*/"9:30-15:00",/*Event Name*/"ExamPreperation and Revision for IT"], 
@@ -125,18 +106,35 @@ $(document).ready(function(){
 	
 	//Executing events 
 	try{
-		events(".active #cal1", days[2],day2[0][0], day2[0][1], day2[1][0],day2[1][1]);
-		events(".active #cal3", days[0],day2[0][0], day2[0][1], day2[1][0],day2[1][1]);
-		events(".active #cal2", days[1],day3[0][0], day3[0][1], day3[1][0],day3[1][1]);
-		events(".cloned #cal4", days[3],day1[0][0], day1[0][1], day1[1][0],day1[1][1]);
-		
-		
-		
-		
+		events("#cal1", days[0],day1[0][0], day1[0][1], day1[1][0],day1[1][1]);
+		events("#cal2", days[1],day2[0][0], day2[0][1], day2[1][0],day2[1][1]);
+		events("#cal3", days[2],day3[0][0], day3[0][1], day3[1][0],day3[1][1]);
+		events("#cal4", days[3],day4[0][0], day4[0][1], day4[1][0],day4[1][1]);
 	}
 	catch(e){
 		alert("Calender Carousel Error: " + e.main + " " +e.message)
 	};
+
+$('.owl-carousel').owlCarousel({
+		margin: 10,
+		nav: true,
+		loop: true,
+		autoplay:true,
+		autoplayTimeout:1000,
+		autoplayHoverPause:true,
+		autoplayTimeout:3000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	})
 	
 	
 /*Twitter Carousel - Not currently Working */
